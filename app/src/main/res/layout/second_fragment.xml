@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="200dp">
+    <Button
+        android:id="@+id/turn_on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="2dp"
+        android:background="@drawable/buttonview"
+        android:text="打开"/>
+    <Button
+        android:id="@+id/turn_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonview"
+        android:padding="2dp"
+        android:layout_margin="10dp"
+        android:text="关闭"/>
+
+</LinearLayout>
